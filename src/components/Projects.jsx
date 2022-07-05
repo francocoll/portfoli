@@ -2,6 +2,7 @@ import React from 'react';
 import Patient from '../assets/patient.png';
 import Criptos from '../assets/cripto.png';
 import Portfolio from '../assets/Portfolio.png'
+import clima from '../assets/clima.png'
 
 
 const Projects = () => {
@@ -36,7 +37,7 @@ const Projects = () => {
                                 </a>
                                 <a href='https://github.com/francocoll/citas_react_vite' target='blank_'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Repositorio
+                                        Repository
                                     </button>
                                 </a>
                             </div>
@@ -68,8 +69,7 @@ const Projects = () => {
 
                     <div
                         style={{ backgroundImage: `url(${Portfolio})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                    >
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
@@ -83,6 +83,28 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${clima})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Weather App Api
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://weather-app-wine-eight.vercel.app/' target='blank_'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/francocoll/weather-app' target='blank_'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Repository
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
