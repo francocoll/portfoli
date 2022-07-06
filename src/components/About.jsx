@@ -11,10 +11,11 @@ export const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-2xl font-bold text-gray-400'>
-                        <p className=''>Hi! My name is Franco, im from Córdoba, Argentina. Junior Fullstack Developer </p>
+                        <p className=''>Mi nombre es Franco, tengo 24 y soy de Córdoba, capital. Fullstack Developer Jr. </p>
                     </div>
                     <div className='text-gray-400'>
-                        <p>This portfolio is made with React, Tailwind and CSS. I put some of my skills  on this project </p>  
+                        <p>Hace aproximadamente 1 año empece a estudiar programación y realizar mis primero proyectos. 
+                            Después de varios meses aprendiendo me siento preparado para empezar a trabajar con un equipo y seguir aprendiendo dia a dia </p>  
                     </div>
                 </div>
             </div>

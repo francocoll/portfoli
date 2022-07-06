@@ -6,7 +6,7 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Redux from '../assets/redux.png';
 import Sequelize from '../assets/sequelize.png';
-import Git from '../assets/git.png';
+import Node from '../assets/node.png';
 import Postgre from '../assets/postgre.png'
 
 const Skills = () => {
@@ -39,8 +39,8 @@ const Skills = () => {
                         <p className='my-4'>REDUX</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Git} alt="HTML icon" />
-                        <p className='my-4'>GIT</p>
+                        <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                        <p className='my-4'>NODE.JS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Sequelize} alt="HTML icon" />
