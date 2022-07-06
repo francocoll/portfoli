@@ -8,7 +8,7 @@ export const NavBar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav)
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a1128] text-gray-50'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#4872b1fd] bg-gradient-to-l from-black text-gray-50'>
             <div className=''>
                 <img src={Logo} alt='' style={{ width: '160px' }} />
             </div>
